@@ -23,21 +23,21 @@ def main():
     if selected == 'Supervised learning':
         with st.container():
             st.write("##")
-            col1 = st.columns(1, border=True)
+            col1, col2, col3 = st.columns(3, border=True)
             with col1:
                 st.subheader("Spaceship Titanic Transported Prediction")
                 st.page_link("pages/Titanic.py", label="Explore", icon="📄")
     elif selected == 'Unsupervised learning':
         with st.container():
             st.write("##")
-            col1 = st.columns(1,  border=True)
+            col1, col2, col3 = st.columns(3, border=True)
             with col1:
                 st.subheader("Mnist classfication")
                 st.page_link("pages/classification.py", label="Explore", icon="📄")
     elif selected == 'Reinforcement learning':
         with st.container():
             st.write("##")
-            col1 = st.columns(1, border=True)
+            col1, col2, col3 = st.columns(3, border=True)
             with col1:
                 st.subheader("Optimal landing rocket")
                 st.page_link("pages/rocket_landing.py", label="Explore", icon="📄")

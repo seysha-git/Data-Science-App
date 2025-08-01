@@ -13,7 +13,6 @@ def title():
 def main():
     navigation()
     title()    
-    st.title("Hello streamlit")
     with st.container():
         selected = option_menu(
             menu_title=None,
